@@ -1,0 +1,388 @@
+2020-11-23 16:17:49,474 - AutoTest - INFO - 【init】场景开始执行
+2020-11-23 16:17:49,476 - AutoTest - INFO - label：【登录】
+2020-11-23 16:17:49,476 - AutoTest - INFO - action:clickByCSS(input[name='username'])
+2020-11-23 16:17:50,199 - AutoTest - INFO - do click ByCSS input[name='username']
+2020-11-23 16:17:50,199 - AutoTest - INFO - action:{"typeByCSS(input[name='username'])": 'username'}
+2020-11-23 16:17:50,837 - AutoTest - INFO - do type ByCSS input[name='username']: admin
+2020-11-23 16:17:50,838 - AutoTest - INFO - action:clickByCSS(input[name='password'])
+2020-11-23 16:17:51,524 - AutoTest - INFO - do click ByCSS input[name='password']
+2020-11-23 16:17:51,524 - AutoTest - INFO - action:{"typeByCSS(input[name='password'])": 'password'}
+2020-11-23 16:17:52,175 - AutoTest - INFO - do type ByCSS input[name='password']: 123456
+2020-11-23 16:17:52,175 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:17:52,819 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:17:52,819 - AutoTest - INFO - action:{'loginAssertByCSS(div.avatar-wrapper.el-dropdown-selfdefine > span)': 'admin'}
+2020-11-23 16:17:54,855 - AutoTest - INFO - login assert success ByCSS div.avatar-wrapper.el-dropdown-selfdefine > span: expect=admin, actual=admin
+2020-11-23 16:17:54,863 - AutoTest - INFO - 【account】场景开始执行
+2020-11-23 16:17:54,863 - AutoTest - INFO - label：【账号管理】
+2020-11-23 16:17:54,863 - AutoTest - INFO - action:clickByCSS(div.el-submenu__title)
+2020-11-23 16:17:55,499 - AutoTest - INFO - do click ByCSS div.el-submenu__title
+2020-11-23 16:17:55,499 - AutoTest - INFO - action:clickByXPath(//div/a/li/span[text()='账号管理'])
+2020-11-23 16:17:56,150 - AutoTest - INFO - do click ByXPath //div/a/li/span[text()='账号管理']
+2020-11-23 16:18:03,998 - AutoTest - INFO - 【init】场景开始执行
+2020-11-23 16:18:03,999 - AutoTest - INFO - label：【登录】
+2020-11-23 16:18:04,000 - AutoTest - INFO - action:clickByCSS(input[name='username'])
+2020-11-23 16:18:04,571 - AutoTest - INFO - do click ByCSS input[name='username']
+2020-11-23 16:18:04,572 - AutoTest - INFO - action:{"typeByCSS(input[name='username'])": 'username'}
+2020-11-23 16:18:05,120 - AutoTest - INFO - do type ByCSS input[name='username']: admin
+2020-11-23 16:18:05,120 - AutoTest - INFO - action:clickByCSS(input[name='password'])
+2020-11-23 16:18:05,693 - AutoTest - INFO - do click ByCSS input[name='password']
+2020-11-23 16:18:05,693 - AutoTest - INFO - action:{"typeByCSS(input[name='password'])": 'password'}
+2020-11-23 16:18:06,238 - AutoTest - INFO - do type ByCSS input[name='password']: 123456
+2020-11-23 16:18:06,239 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:18:06,799 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:18:06,799 - AutoTest - INFO - action:{'loginAssertByCSS(div.avatar-wrapper.el-dropdown-selfdefine > span)': 'admin'}
+2020-11-23 16:18:08,778 - AutoTest - INFO - login assert success ByCSS div.avatar-wrapper.el-dropdown-selfdefine > span: expect=admin, actual=admin
+2020-11-23 16:18:08,787 - AutoTest - INFO - 【Authentication】场景开始执行
+2020-11-23 16:18:08,787 - AutoTest - INFO - label：【身份验证配置】
+2020-11-23 16:18:08,788 - AutoTest - INFO - action:clickByCSS(div.el-submenu__title)
+2020-11-23 16:18:09,507 - AutoTest - INFO - do click ByCSS div.el-submenu__title
+2020-11-23 16:18:09,508 - AutoTest - INFO - action:clickByXPath(//div/a/li/span[text()='身份验证配置'])
+2020-11-23 16:18:10,151 - AutoTest - INFO - do click ByXPath //div/a/li/span[text()='身份验证配置']
+2020-11-23 16:18:10,151 - AutoTest - INFO - label：【运动员】
+2020-11-23 16:18:10,154 - AutoTest - INFO - action:clickByCSS(span.el-checkbox__inner)
+2020-11-23 16:18:10,881 - AutoTest - INFO - do click ByCSS span.el-checkbox__inner
+2020-11-23 16:18:10,882 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--success.el-button--mini)
+2020-11-23 16:18:11,523 - AutoTest - INFO - do click ByCSS button.el-button.el-button--success.el-button--mini
+2020-11-23 16:18:11,524 - AutoTest - INFO - action:{'clickByCSS(p.el-message__content)': '保存成功'}
+2020-11-23 16:18:13,128 - AutoTest - INFO - do assert success ByCSS p.el-message__content: expect=保存成功, actual=保存成功
+2020-11-23 16:18:13,128 - AutoTest - INFO - action:clickByCSS(span.el-checkbox__inner)
+2020-11-23 16:18:13,701 - AutoTest - INFO - do click ByCSS span.el-checkbox__inner
+2020-11-23 16:18:13,701 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--success.el-button--mini)
+2020-11-23 16:18:14,335 - AutoTest - INFO - do click ByCSS button.el-button.el-button--success.el-button--mini
+2020-11-23 16:18:14,336 - AutoTest - INFO - action:getScreenshot()
+2020-11-23 16:18:15,704 - AutoTest - INFO - action:wait(2)
+2020-11-23 16:18:18,218 - AutoTest - INFO - wait end
+2020-11-23 16:18:18,219 - AutoTest - INFO - label：【队内工作人员】
+2020-11-23 16:18:18,221 - AutoTest - INFO - action:clickByCSS(#tab-队内工作人员)
+2020-11-23 16:18:18,792 - AutoTest - INFO - do click ByCSS #tab-队内工作人员
+2020-11-23 16:18:18,792 - AutoTest - INFO - action:clickByCSS(#pane-队内工作人员 > div > label.el-checkbox > span.el-checkbox__input > span.el-checkbox__inner)
+2020-11-23 16:18:19,462 - AutoTest - INFO - do click ByCSS #pane-队内工作人员 > div > label.el-checkbox > span.el-checkbox__input > span.el-checkbox__inner
+2020-11-23 16:18:19,463 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--success.el-button--mini)
+2020-11-23 16:18:20,060 - AutoTest - INFO - do click ByCSS button.el-button.el-button--success.el-button--mini
+2020-11-23 16:18:20,060 - AutoTest - INFO - action:{'clickByCSS(p.el-message__content)': '保存成功'}
+2020-11-23 16:18:21,679 - AutoTest - INFO - do assert success ByCSS p.el-message__content: expect=保存成功, actual=保存成功
+2020-11-23 16:18:21,679 - AutoTest - INFO - action:clickByCSS(#pane-队内工作人员 > div > label.el-checkbox > span.el-checkbox__input > span.el-checkbox__inner)
+2020-11-23 16:18:22,242 - AutoTest - INFO - do click ByCSS #pane-队内工作人员 > div > label.el-checkbox > span.el-checkbox__input > span.el-checkbox__inner
+2020-11-23 16:18:22,243 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--success.el-button--mini > span)
+2020-11-23 16:18:22,835 - AutoTest - INFO - do click ByCSS button.el-button.el-button--success.el-button--mini > span
+2020-11-23 16:18:22,836 - AutoTest - INFO - action:getScreenshot()
+2020-11-23 16:18:24,257 - AutoTest - INFO - action:wait(2)
+2020-11-23 16:18:26,783 - AutoTest - INFO - wait end
+2020-11-23 16:18:26,784 - AutoTest - INFO - label：【中心工作人员】
+2020-11-23 16:18:26,788 - AutoTest - INFO - action:clickByCSS(#tab-中心工作人员)
+2020-11-23 16:18:27,467 - AutoTest - INFO - do click ByCSS #tab-中心工作人员
+2020-11-23 16:18:27,467 - AutoTest - INFO - action:clickByCSS(#pane-中心工作人员 > div > label.el-checkbox > span.el-checkbox__input > span.el-checkbox__inner)
+2020-11-23 16:18:28,132 - AutoTest - INFO - do click ByCSS #pane-中心工作人员 > div > label.el-checkbox > span.el-checkbox__input > span.el-checkbox__inner
+2020-11-23 16:18:28,132 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--success.el-button--mini)
+2020-11-23 16:18:28,777 - AutoTest - INFO - do click ByCSS button.el-button.el-button--success.el-button--mini
+2020-11-23 16:18:28,778 - AutoTest - INFO - action:{'clickByCSS(p.el-message__content)': '保存成功'}
+2020-11-23 16:18:30,400 - AutoTest - INFO - do assert success ByCSS p.el-message__content: expect=保存成功, actual=保存成功
+2020-11-23 16:18:30,401 - AutoTest - INFO - action:clickByCSS(#pane-中心工作人员 > div > label.el-checkbox > span.el-checkbox__input > span.el-checkbox__inner)
+2020-11-23 16:18:31,018 - AutoTest - INFO - do click ByCSS #pane-中心工作人员 > div > label.el-checkbox > span.el-checkbox__input > span.el-checkbox__inner
+2020-11-23 16:18:31,018 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--success.el-button--mini)
+2020-11-23 16:18:31,623 - AutoTest - INFO - do click ByCSS button.el-button.el-button--success.el-button--mini
+2020-11-23 16:18:31,624 - AutoTest - INFO - action:getScreenshot()
+2020-11-23 16:18:32,994 - AutoTest - INFO - label：【身份验证】
+2020-11-23 16:18:32,994 - AutoTest - INFO - action:clickByXPath(//div/a/li/span[text()='身份验证'])
+2020-11-23 16:18:33,674 - AutoTest - INFO - do click ByXPath //div/a/li/span[text()='身份验证']
+2020-11-23 16:18:33,675 - AutoTest - INFO - label：【我是运动员】
+2020-11-23 16:18:33,676 - AutoTest - INFO - action:clickByCSS(img)
+2020-11-23 16:18:34,400 - AutoTest - INFO - do click ByCSS img
+2020-11-23 16:18:34,400 - AutoTest - INFO - action:getScreenshot()
+2020-11-23 16:18:35,877 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--default.el-button--mini)
+2020-11-23 16:18:36,507 - AutoTest - INFO - do click ByCSS button.el-button.el-button--default.el-button--mini
+2020-11-23 16:18:36,507 - AutoTest - INFO - label：【我是队内工作人员】
+2020-11-23 16:18:36,509 - AutoTest - INFO - action:clickByXPath(//div[2]/div/div/img)
+2020-11-23 16:18:37,276 - AutoTest - INFO - do click ByXPath //div[2]/div/div/img
+2020-11-23 16:18:37,277 - AutoTest - INFO - action:getScreenshot()
+2020-11-23 16:18:38,669 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--default.el-button--mini)
+2020-11-23 16:18:39,239 - AutoTest - INFO - do click ByCSS button.el-button.el-button--default.el-button--mini
+2020-11-23 16:18:39,239 - AutoTest - INFO - label：【我是中心工作人员】
+2020-11-23 16:18:39,240 - AutoTest - INFO - action:clickByXPath(//div[3]/div/div/img)
+2020-11-23 16:18:40,073 - AutoTest - INFO - do click ByXPath //div[3]/div/div/img
+2020-11-23 16:18:40,074 - AutoTest - INFO - action:getScreenshot()
+2020-11-23 16:18:41,504 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--default.el-button--mini)
+2020-11-23 16:18:42,198 - AutoTest - INFO - do click ByCSS button.el-button.el-button--default.el-button--mini
+2020-11-23 16:18:50,085 - AutoTest - INFO - 【init】场景开始执行
+2020-11-23 16:18:50,085 - AutoTest - INFO - label：【登录】
+2020-11-23 16:18:50,086 - AutoTest - INFO - action:clickByCSS(input[name='username'])
+2020-11-23 16:18:50,666 - AutoTest - INFO - do click ByCSS input[name='username']
+2020-11-23 16:18:50,667 - AutoTest - INFO - action:{"typeByCSS(input[name='username'])": 'username'}
+2020-11-23 16:18:51,323 - AutoTest - INFO - do type ByCSS input[name='username']: admin
+2020-11-23 16:18:51,323 - AutoTest - INFO - action:clickByCSS(input[name='password'])
+2020-11-23 16:18:52,000 - AutoTest - INFO - do click ByCSS input[name='password']
+2020-11-23 16:18:52,001 - AutoTest - INFO - action:{"typeByCSS(input[name='password'])": 'password'}
+2020-11-23 16:18:52,628 - AutoTest - INFO - do type ByCSS input[name='password']: 123456
+2020-11-23 16:18:52,629 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:18:53,280 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:18:53,280 - AutoTest - INFO - action:{'loginAssertByCSS(div.avatar-wrapper.el-dropdown-selfdefine > span)': 'admin'}
+2020-11-23 16:18:55,285 - AutoTest - INFO - login assert success ByCSS div.avatar-wrapper.el-dropdown-selfdefine > span: expect=admin, actual=admin
+2020-11-23 16:18:55,309 - AutoTest - INFO - 【org-Selenium】场景开始执行
+2020-11-23 16:18:55,309 - AutoTest - INFO - label：【组织机构】
+2020-11-23 16:18:55,310 - AutoTest - INFO - action:clickByCSS(div.el-submenu__title)
+2020-11-23 16:18:55,876 - AutoTest - INFO - do click ByCSS div.el-submenu__title
+2020-11-23 16:18:55,876 - AutoTest - INFO - action:clickByXPath(//div/a/li/span[text()='组织机构'])
+2020-11-23 16:18:56,458 - AutoTest - INFO - do click ByXPath //div/a/li/span[text()='组织机构']
+2020-11-23 16:18:56,458 - AutoTest - INFO - label：【新增组织机构】
+2020-11-23 16:18:56,458 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--text.el-button--mini > span)
+2020-11-23 16:18:57,183 - AutoTest - INFO - do click ByCSS button.el-button.el-button--text.el-button--mini > span
+2020-11-23 16:18:57,183 - AutoTest - INFO - action:clickByCSS(input.el-input__inner)
+2020-11-23 16:18:57,752 - AutoTest - INFO - do click ByCSS input.el-input__inner
+2020-11-23 16:18:57,846 - AutoTest - INFO - action:{'typeByCSS(input.el-input__inner)': 'zsy测试队伍'}
+2020-11-23 16:18:58,429 - AutoTest - INFO - do type ByCSS input.el-input__inner: zsy测试队伍
+2020-11-23 16:18:58,429 - AutoTest - INFO - action:clickByCSS(div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+2020-11-23 16:18:59,001 - AutoTest - INFO - do click ByCSS div.el-input.el-input--mini.el-input--suffix > input.el-input__inner
+2020-11-23 16:18:59,001 - AutoTest - INFO - action:clickByXPath(//ul/li/span[text()='队伍'])
+2020-11-23 16:18:59,668 - AutoTest - INFO - do click ByXPath //ul/li/span[text()='队伍']
+2020-11-23 16:18:59,669 - AutoTest - INFO - action:clickByXPath((//input[@type='text'])[3])
+2020-11-23 16:19:00,327 - AutoTest - INFO - do click ByXPath (//input[@type='text'])[3]
+2020-11-23 16:19:00,327 - AutoTest - INFO - action:clickByXPath(//ul/li/span[text()='国家队'])
+2020-11-23 16:19:00,972 - AutoTest - INFO - do click ByXPath //ul/li/span[text()='国家队']
+2020-11-23 16:19:00,972 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:19:01,629 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:19:01,630 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--text.el-button--mini > span)
+2020-11-23 16:19:02,278 - AutoTest - INFO - do click ByCSS button.el-button.el-button--text.el-button--mini > span
+2020-11-23 16:19:02,279 - AutoTest - INFO - action:clickByCSS(input.el-input__inner)
+2020-11-23 16:19:02,924 - AutoTest - INFO - do click ByCSS input.el-input__inner
+2020-11-23 16:19:02,924 - AutoTest - INFO - action:{'typeByCSS(input.el-input__inner)': 'zsy测试部门'}
+2020-11-23 16:19:03,574 - AutoTest - INFO - do type ByCSS input.el-input__inner: zsy测试部门
+2020-11-23 16:19:03,574 - AutoTest - INFO - action:clickByCSS(div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+2020-11-23 16:19:04,225 - AutoTest - INFO - do click ByCSS div.el-input.el-input--mini.el-input--suffix > input.el-input__inner
+2020-11-23 16:19:04,226 - AutoTest - INFO - action:clickByXPath(//div/ul/li/span[text()='部门'])
+2020-11-23 16:19:04,820 - AutoTest - INFO - do click ByXPath //div/ul/li/span[text()='部门']
+2020-11-23 16:19:04,821 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:19:05,439 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:19:05,439 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--text.el-button--mini > span)
+2020-11-23 16:19:06,138 - AutoTest - INFO - do click ByCSS button.el-button.el-button--text.el-button--mini > span
+2020-11-23 16:19:06,139 - AutoTest - INFO - action:clickByCSS(input.el-input__inner)
+2020-11-23 16:19:06,769 - AutoTest - INFO - do click ByCSS input.el-input__inner
+2020-11-23 16:19:06,770 - AutoTest - INFO - action:{'typeByCSS(input.el-input__inner)': 'zsy测试基地'}
+2020-11-23 16:19:07,430 - AutoTest - INFO - do type ByCSS input.el-input__inner: zsy测试基地
+2020-11-23 16:19:07,431 - AutoTest - INFO - action:clickByCSS(div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+2020-11-23 16:19:08,087 - AutoTest - INFO - do click ByCSS div.el-input.el-input--mini.el-input--suffix > input.el-input__inner
+2020-11-23 16:19:08,087 - AutoTest - INFO - action:clickByXPath(//ul/li/span[text()='基地'])
+2020-11-23 16:19:08,687 - AutoTest - INFO - do click ByXPath //ul/li/span[text()='基地']
+2020-11-23 16:19:08,687 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:19:09,319 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:19:09,320 - AutoTest - INFO - action:clickByCSS(i.el-icon.el-icon-arrow-right)
+2020-11-23 16:19:09,906 - AutoTest - INFO - do click ByCSS i.el-icon.el-icon-arrow-right
+2020-11-23 16:19:09,907 - AutoTest - INFO - action:clickByXPath(//tr/td/div[text()='zsy测试队伍']/../../td[3]/div/button[1])
+2020-11-23 16:19:10,565 - AutoTest - INFO - do click ByXPath //tr/td/div[text()='zsy测试队伍']/../../td[3]/div/button[1]
+2020-11-23 16:19:10,566 - AutoTest - INFO - action:clickByCSS(input.el-input__inner)
+2020-11-23 16:19:11,207 - AutoTest - INFO - do click ByCSS input.el-input__inner
+2020-11-23 16:19:11,208 - AutoTest - INFO - action:{'typeByCSS(input.el-input__inner)': 'zsy测试无'}
+2020-11-23 16:19:11,846 - AutoTest - INFO - do type ByCSS input.el-input__inner: zsy测试无
+2020-11-23 16:19:11,846 - AutoTest - INFO - action:clickByCSS(div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+2020-11-23 16:19:12,508 - AutoTest - INFO - do click ByCSS div.el-input.el-input--mini.el-input--suffix > input.el-input__inner
+2020-11-23 16:19:12,508 - AutoTest - INFO - action:clickByXPath(//ul/li/span[text()='无'])
+2020-11-23 16:19:13,100 - AutoTest - INFO - do click ByXPath //ul/li/span[text()='无']
+2020-11-23 16:19:13,100 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:19:13,693 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:19:13,693 - AutoTest - INFO - label：【新增后查看】
+2020-11-23 16:19:13,694 - AutoTest - INFO - action:clickByCSS(i.el-icon.el-icon-arrow-right)
+2020-11-23 16:19:14,347 - AutoTest - INFO - do click ByCSS i.el-icon.el-icon-arrow-right
+2020-11-23 16:19:14,348 - AutoTest - INFO - action:clickByXPath(//tr/td/div[text()='zsy测试队伍']/div/i)
+2020-11-23 16:19:15,014 - AutoTest - INFO - do click ByXPath //tr/td/div[text()='zsy测试队伍']/div/i
+2020-11-23 16:19:15,014 - AutoTest - INFO - action:clickByXPath(//tr/td/div[text()='zsy测试队伍'])
+2020-11-23 16:19:15,686 - AutoTest - INFO - do click ByXPath //tr/td/div[text()='zsy测试队伍']
+2020-11-23 16:19:15,687 - AutoTest - INFO - action:clickByXPath(//tr/td/div[text()='zsy测试部门'])
+2020-11-23 16:19:16,397 - AutoTest - INFO - do click ByXPath //tr/td/div[text()='zsy测试部门']
+2020-11-23 16:19:16,398 - AutoTest - INFO - action:clickByXPath(//tr/td/div[text()='zsy测试基地'])
+2020-11-23 16:19:17,006 - AutoTest - INFO - do click ByXPath //tr/td/div[text()='zsy测试基地']
+2020-11-23 16:19:17,006 - AutoTest - INFO - action:clickByXPath(//tr/td/div[text()='zsy测试无'])
+2020-11-23 16:19:17,720 - AutoTest - INFO - do click ByXPath //tr/td/div[text()='zsy测试无']
+2020-11-23 16:19:17,720 - AutoTest - INFO - label：【修改】
+2020-11-23 16:19:17,721 - AutoTest - INFO - action:clickByXPath(//tr/td/div[text()='zsy测试队伍']/../../td[3]/div/button[2])
+2020-11-23 16:19:18,349 - AutoTest - INFO - do click ByXPath //tr/td/div[text()='zsy测试队伍']/../../td[3]/div/button[2]
+2020-11-23 16:19:18,349 - AutoTest - INFO - action:clickByCSS(input.el-input__inner)
+2020-11-23 16:19:19,001 - AutoTest - INFO - do click ByCSS input.el-input__inner
+2020-11-23 16:19:19,002 - AutoTest - INFO - action:{'typeByCSS(input.el-input__inner)': 'zsy修改部门'}
+2020-11-23 16:19:19,739 - AutoTest - INFO - do type ByCSS input.el-input__inner: zsy修改部门
+2020-11-23 16:19:19,739 - AutoTest - INFO - action:clickByCSS(div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+2020-11-23 16:19:20,407 - AutoTest - INFO - do click ByCSS div.el-input.el-input--mini.el-input--suffix > input.el-input__inner
+2020-11-23 16:19:20,407 - AutoTest - INFO - action:clickByXPath(//ul/li/span[text()='部门'])
+2020-11-23 16:19:21,018 - AutoTest - INFO - do click ByXPath //ul/li/span[text()='部门']
+2020-11-23 16:19:21,018 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:19:21,652 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:19:21,653 - AutoTest - INFO - label：【修改后查看】
+2020-11-23 16:19:21,656 - AutoTest - INFO - action:clickByCSS(i.el-icon.el-icon-arrow-right)
+2020-11-23 16:19:22,312 - AutoTest - INFO - do click ByCSS i.el-icon.el-icon-arrow-right
+2020-11-23 16:19:22,313 - AutoTest - INFO - action:clickByXPath(//tr/td/div[text()='zsy修改部门'])
+2020-11-23 16:19:22,910 - AutoTest - INFO - do click ByXPath //tr/td/div[text()='zsy修改部门']
+2020-11-23 16:19:22,910 - AutoTest - INFO - label：【删除】
+2020-11-23 16:19:22,910 - AutoTest - INFO - action:clickByXPath(//tr/td/div[text()='zsy修改部门']/../../td[3]/div/button[3])
+2020-11-23 16:19:23,522 - AutoTest - INFO - do click ByXPath //tr/td/div[text()='zsy修改部门']/../../td[3]/div/button[3]
+2020-11-23 16:19:23,523 - AutoTest - INFO - action:clickByXPath(//div[3]/button[2])
+2020-11-23 16:19:24,087 - AutoTest - INFO - do click ByXPath //div[3]/button[2]
+2020-11-23 16:19:24,087 - AutoTest - INFO - action:clickByCSS(i.el-icon.el-icon-arrow-right)
+2020-11-23 16:19:24,747 - AutoTest - INFO - do click ByCSS i.el-icon.el-icon-arrow-right
+2020-11-23 16:19:24,747 - AutoTest - INFO - action:clickByXPath(//tr/td/div[text()='zsy测试部门']/../../td[3]/div/button[3])
+2020-11-23 16:19:25,415 - AutoTest - INFO - do click ByXPath //tr/td/div[text()='zsy测试部门']/../../td[3]/div/button[3]
+2020-11-23 16:19:25,415 - AutoTest - INFO - action:clickByXPath(//div[3]/button[2])
+2020-11-23 16:19:26,038 - AutoTest - INFO - do click ByXPath //div[3]/button[2]
+2020-11-23 16:19:26,039 - AutoTest - INFO - action:clickByCSS(i.el-icon.el-icon-arrow-right)
+2020-11-23 16:19:26,691 - AutoTest - INFO - do click ByCSS i.el-icon.el-icon-arrow-right
+2020-11-23 16:19:26,691 - AutoTest - INFO - action:clickByXPath(//tr/td/div[text()='zsy测试基地']/../../td[3]/div/button[3])
+2020-11-23 16:19:27,282 - AutoTest - INFO - do click ByXPath //tr/td/div[text()='zsy测试基地']/../../td[3]/div/button[3]
+2020-11-23 16:19:27,282 - AutoTest - INFO - action:clickByXPath(//div[3]/button[2])
+2020-11-23 16:19:27,889 - AutoTest - INFO - do click ByXPath //div[3]/button[2]
+2020-11-23 16:19:27,890 - AutoTest - INFO - action:clickByCSS(i.el-icon.el-icon-arrow-right)
+2020-11-23 16:19:28,507 - AutoTest - INFO - do click ByCSS i.el-icon.el-icon-arrow-right
+2020-11-23 16:19:36,219 - AutoTest - INFO - 【init】场景开始执行
+2020-11-23 16:19:36,220 - AutoTest - INFO - label：【登录】
+2020-11-23 16:19:36,220 - AutoTest - INFO - action:clickByCSS(input[name='username'])
+2020-11-23 16:19:36,912 - AutoTest - INFO - do click ByCSS input[name='username']
+2020-11-23 16:19:36,912 - AutoTest - INFO - action:{"typeByCSS(input[name='username'])": 'username'}
+2020-11-23 16:19:37,583 - AutoTest - INFO - do type ByCSS input[name='username']: admin
+2020-11-23 16:19:37,584 - AutoTest - INFO - action:clickByCSS(input[name='password'])
+2020-11-23 16:19:38,252 - AutoTest - INFO - do click ByCSS input[name='password']
+2020-11-23 16:19:38,253 - AutoTest - INFO - action:{"typeByCSS(input[name='password'])": 'password'}
+2020-11-23 16:19:38,811 - AutoTest - INFO - do type ByCSS input[name='password']: 123456
+2020-11-23 16:19:38,811 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:19:39,444 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:19:39,445 - AutoTest - INFO - action:{'loginAssertByCSS(div.avatar-wrapper.el-dropdown-selfdefine > span)': 'admin'}
+2020-11-23 16:19:41,419 - AutoTest - INFO - login assert success ByCSS div.avatar-wrapper.el-dropdown-selfdefine > span: expect=admin, actual=admin
+2020-11-23 16:19:41,425 - AutoTest - INFO - 【resource】场景开始执行
+2020-11-23 16:19:41,425 - AutoTest - INFO - label：【权限资源】
+2020-11-23 16:19:41,425 - AutoTest - INFO - action:clickByCSS(div.el-submenu__title)
+2020-11-23 16:19:41,982 - AutoTest - INFO - do click ByCSS div.el-submenu__title
+2020-11-23 16:19:41,982 - AutoTest - INFO - action:clickByXPath(//div/a/li/span[text()='权限资源'])
+2020-11-23 16:19:42,553 - AutoTest - INFO - do click ByXPath //div/a/li/span[text()='权限资源']
+2020-11-23 16:19:42,554 - AutoTest - INFO - label：【查询】
+2020-11-23 16:19:42,554 - AutoTest - INFO - action:clickByCSS(input.el-input__inner)
+2020-11-23 16:19:43,723 - AutoTest - INFO - do click ByCSS input.el-input__inner
+2020-11-23 16:19:43,723 - AutoTest - INFO - action:clickByXPath(//li/span[text()='“中国冰雪”信息化平台']/..)
+2020-11-23 16:19:44,296 - AutoTest - INFO - do click ByXPath //li/span[text()='“中国冰雪”信息化平台']/..
+2020-11-23 16:19:44,297 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:19:44,976 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:19:44,977 - AutoTest - INFO - action:clickByXPath(//td/div[text()='权限资源'])
+2020-11-23 16:19:45,682 - AutoTest - INFO - do click ByXPath //td/div[text()='权限资源']
+2020-11-23 16:19:45,682 - AutoTest - INFO - action:clickByXPath(//td/div[text()='组织机构'])
+2020-11-23 16:19:46,374 - AutoTest - INFO - do click ByXPath //td/div[text()='组织机构']
+2020-11-23 16:19:46,374 - AutoTest - INFO - action:clickByXPath(//td/div[text()='身份验证配置'])
+2020-11-23 16:19:47,049 - AutoTest - INFO - do click ByXPath //td/div[text()='身份验证配置']
+2020-11-23 16:19:47,050 - AutoTest - INFO - action:clickByXPath(//td/div[text()='角色管理'])
+2020-11-23 16:19:47,654 - AutoTest - INFO - do click ByXPath //td/div[text()='角色管理']
+2020-11-23 16:19:47,654 - AutoTest - INFO - action:clickByXPath(//td/div[text()='账号管理'])
+2020-11-23 16:19:48,321 - AutoTest - INFO - do click ByXPath //td/div[text()='账号管理']
+2020-11-23 16:19:56,151 - AutoTest - INFO - 【init】场景开始执行
+2020-11-23 16:19:56,151 - AutoTest - INFO - label：【登录】
+2020-11-23 16:19:56,152 - AutoTest - INFO - action:clickByCSS(input[name='username'])
+2020-11-23 16:19:56,712 - AutoTest - INFO - do click ByCSS input[name='username']
+2020-11-23 16:19:56,712 - AutoTest - INFO - action:{"typeByCSS(input[name='username'])": 'username'}
+2020-11-23 16:19:57,264 - AutoTest - INFO - do type ByCSS input[name='username']: admin
+2020-11-23 16:19:57,264 - AutoTest - INFO - action:clickByCSS(input[name='password'])
+2020-11-23 16:19:57,834 - AutoTest - INFO - do click ByCSS input[name='password']
+2020-11-23 16:19:57,834 - AutoTest - INFO - action:{"typeByCSS(input[name='password'])": 'password'}
+2020-11-23 16:19:58,422 - AutoTest - INFO - do type ByCSS input[name='password']: 123456
+2020-11-23 16:19:58,422 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:19:59,055 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:19:59,055 - AutoTest - INFO - action:{'loginAssertByCSS(div.avatar-wrapper.el-dropdown-selfdefine > span)': 'admin'}
+2020-11-23 16:20:01,040 - AutoTest - INFO - login assert success ByCSS div.avatar-wrapper.el-dropdown-selfdefine > span: expect=admin, actual=admin
+2020-11-23 16:20:01,054 - AutoTest - INFO - 【role】场景开始执行
+2020-11-23 16:20:01,054 - AutoTest - INFO - label：【角色管理】
+2020-11-23 16:20:01,054 - AutoTest - INFO - action:clickByCSS(div.el-submenu__title)
+2020-11-23 16:20:01,615 - AutoTest - INFO - do click ByCSS div.el-submenu__title
+2020-11-23 16:20:01,615 - AutoTest - INFO - action:clickByXPath(//div/a/li/span[text()='角色管理'])
+2020-11-23 16:20:02,185 - AutoTest - INFO - do click ByXPath //div/a/li/span[text()='角色管理']
+2020-11-23 16:20:02,186 - AutoTest - INFO - label：【新增】
+2020-11-23 16:20:02,186 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--success.el-button--mini)
+2020-11-23 16:20:03,504 - AutoTest - INFO - do click ByCSS button.el-button.el-button--success.el-button--mini
+2020-11-23 16:20:03,504 - AutoTest - INFO - action:clickByCSS(div.el-form-item.is-required.el-form-item--mini > div.el-form-item__content > div.el-select.el-select--mini > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+2020-11-23 16:20:04,080 - AutoTest - INFO - do click ByCSS div.el-form-item.is-required.el-form-item--mini > div.el-form-item__content > div.el-select.el-select--mini > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner
+2020-11-23 16:20:04,080 - AutoTest - INFO - action:clickByXPath(//div[3]/div/div/ul/li/span[text()='“中国冰雪”信息化平台']/..)
+2020-11-23 16:20:04,754 - AutoTest - INFO - do click ByXPath //div[3]/div/div/ul/li/span[text()='“中国冰雪”信息化平台']/..
+2020-11-23 16:20:04,754 - AutoTest - INFO - action:clickByCSS(div.el-form-item.is-required.el-form-item--mini > div.el-form-item__content > div.el-input.el-input--mini > input.el-input__inner)
+2020-11-23 16:20:05,397 - AutoTest - INFO - do click ByCSS div.el-form-item.is-required.el-form-item--mini > div.el-form-item__content > div.el-input.el-input--mini > input.el-input__inner
+2020-11-23 16:20:05,398 - AutoTest - INFO - action:{'typeByCSS(div.el-form-item.is-required.el-form-item--mini > div.el-form-item__content > div.el-input.el-input--mini > input.el-input__inner)': 'zsy测试新增'}
+2020-11-23 16:20:06,071 - AutoTest - INFO - do type ByCSS div.el-form-item.is-required.el-form-item--mini > div.el-form-item__content > div.el-input.el-input--mini > input.el-input__inner: zsy测试新增
+2020-11-23 16:20:06,071 - AutoTest - INFO - action:clickByCSS(span.el-radio__inner)
+2020-11-23 16:20:06,693 - AutoTest - INFO - do click ByCSS span.el-radio__inner
+2020-11-23 16:20:06,693 - AutoTest - INFO - action:clickByCSS(div.el-tree-node__content > label.el-checkbox > span.el-checkbox__input > span.el-checkbox__inner)
+2020-11-23 16:20:07,340 - AutoTest - INFO - do click ByCSS div.el-tree-node__content > label.el-checkbox > span.el-checkbox__input > span.el-checkbox__inner
+2020-11-23 16:20:07,341 - AutoTest - INFO - action:clickByXPath(//div[2]/div/label/span/span)
+2020-11-23 16:20:07,976 - AutoTest - INFO - do click ByXPath //div[2]/div/label/span/span
+2020-11-23 16:20:07,976 - AutoTest - INFO - action:clickByXPath((//input[@type='text'])[7])
+2020-11-23 16:20:08,636 - AutoTest - INFO - do click ByXPath (//input[@type='text'])[7]
+2020-11-23 16:20:08,636 - AutoTest - INFO - action:clickByXPath(//div[4]/div/div/ul/li/span[text()='队内工作人员']/..)
+2020-11-23 16:20:09,281 - AutoTest - INFO - do click ByXPath //div[4]/div/div/ul/li/span[text()='队内工作人员']/..
+2020-11-23 16:20:09,282 - AutoTest - INFO - action:clickByCSS(div.dialog-footer > button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:20:09,925 - AutoTest - INFO - do click ByCSS div.dialog-footer > button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:20:09,925 - AutoTest - INFO - action:wait(2)
+2020-11-23 16:20:12,442 - AutoTest - INFO - wait end
+2020-11-23 16:20:12,443 - AutoTest - INFO - label：【新增后查询】
+2020-11-23 16:20:12,444 - AutoTest - INFO - action:clickByCSS(input.el-input__inner)
+2020-11-23 16:20:13,090 - AutoTest - INFO - do click ByCSS input.el-input__inner
+2020-11-23 16:20:13,090 - AutoTest - INFO - action:clickByXPath(//div[4]/div/div/ul/li/span[text()='“中国冰雪”信息化平台']/..)
+2020-11-23 16:20:13,739 - AutoTest - INFO - do click ByXPath //div[4]/div/div/ul/li/span[text()='“中国冰雪”信息化平台']/..
+2020-11-23 16:20:13,740 - AutoTest - INFO - action:clickByCSS(div.el-form-item__content > div.el-input.el-input--mini > input.el-input__inner)
+2020-11-23 16:20:14,341 - AutoTest - INFO - do click ByCSS div.el-form-item__content > div.el-input.el-input--mini > input.el-input__inner
+2020-11-23 16:20:14,342 - AutoTest - INFO - action:{'typeByCSS(div.el-form-item__content > div.el-input.el-input--mini > input.el-input__inner)': 'zsy测试'}
+2020-11-23 16:20:15,008 - AutoTest - INFO - do type ByCSS div.el-form-item__content > div.el-input.el-input--mini > input.el-input__inner: zsy测试
+2020-11-23 16:20:15,008 - AutoTest - INFO - action:clickByXPath((//input[@type='text'])[3])
+2020-11-23 16:20:15,663 - AutoTest - INFO - do click ByXPath (//input[@type='text'])[3]
+2020-11-23 16:20:15,663 - AutoTest - INFO - action:clickByXPath(//div[5]/div/div/ul/li/span[text()='队内工作人员']/..)
+2020-11-23 16:20:16,320 - AutoTest - INFO - do click ByXPath //div[5]/div/div/ul/li/span[text()='队内工作人员']/..
+2020-11-23 16:20:16,320 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:20:17,013 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:20:17,014 - AutoTest - INFO - action:clickByXPath(//td/div[text()='“中国冰雪”信息化平台'])
+2020-11-23 16:20:17,715 - AutoTest - INFO - do click ByXPath //td/div[text()='“中国冰雪”信息化平台']
+2020-11-23 16:20:17,715 - AutoTest - INFO - action:clickByXPath(//td/div[text()='zsy测试新增'])
+2020-11-23 16:20:18,336 - AutoTest - INFO - do click ByXPath //td/div[text()='zsy测试新增']
+2020-11-23 16:20:18,337 - AutoTest - INFO - action:clickByXPath(//td/div[text()='队内工作人员'])
+2020-11-23 16:20:19,005 - AutoTest - INFO - do click ByXPath //td/div[text()='队内工作人员']
+2020-11-23 16:20:19,006 - AutoTest - INFO - label：【查看】
+2020-11-23 16:20:19,006 - AutoTest - INFO - action:clickByXPath(//button[3]/span)
+2020-11-23 16:20:19,602 - AutoTest - INFO - do click ByXPath //button[3]/span
+2020-11-23 16:20:19,603 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--default.el-button--mini)
+2020-11-23 16:20:20,252 - AutoTest - INFO - do click ByCSS button.el-button.el-button--default.el-button--mini
+2020-11-23 16:20:20,325 - AutoTest - INFO - label：【修改】
+2020-11-23 16:20:20,326 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--text.el-button--mini > span)
+2020-11-23 16:20:22,049 - AutoTest - ERROR - Message: element click intercepted: Element <span>...</span> is not clickable at point (1236, 184). Other element would receive the click: <div class="el-dialog__body">...</div>
+  (Session info: chrome=86.0.4240.111)
+
+2020-11-23 16:20:30,164 - AutoTest - INFO - 【init】场景开始执行
+2020-11-23 16:20:30,165 - AutoTest - INFO - label：【登录】
+2020-11-23 16:20:30,165 - AutoTest - INFO - action:clickByCSS(input[name='username'])
+2020-11-23 16:20:30,728 - AutoTest - INFO - do click ByCSS input[name='username']
+2020-11-23 16:20:30,728 - AutoTest - INFO - action:{"typeByCSS(input[name='username'])": 'username'}
+2020-11-23 16:20:31,282 - AutoTest - INFO - do type ByCSS input[name='username']: admin
+2020-11-23 16:20:31,282 - AutoTest - INFO - action:clickByCSS(input[name='password'])
+2020-11-23 16:20:31,866 - AutoTest - INFO - do click ByCSS input[name='password']
+2020-11-23 16:20:31,866 - AutoTest - INFO - action:{"typeByCSS(input[name='password'])": 'password'}
+2020-11-23 16:20:32,489 - AutoTest - INFO - do type ByCSS input[name='password']: 123456
+2020-11-23 16:20:32,489 - AutoTest - INFO - action:clickByCSS(button.el-button.el-button--primary.el-button--mini)
+2020-11-23 16:20:33,130 - AutoTest - INFO - do click ByCSS button.el-button.el-button--primary.el-button--mini
+2020-11-23 16:20:33,130 - AutoTest - INFO - action:{'loginAssertByCSS(div.avatar-wrapper.el-dropdown-selfdefine > span)': 'admin'}
+2020-11-23 16:20:35,137 - AutoTest - INFO - login assert success ByCSS div.avatar-wrapper.el-dropdown-selfdefine > span: expect=admin, actual=admin
+2020-11-23 16:20:35,147 - AutoTest - INFO - 【systems】场景开始执行
+2020-11-23 16:20:35,148 - AutoTest - INFO - label：【系统入口】
+2020-11-23 16:20:35,148 - AutoTest - INFO - action:clickByXPath(//div/a/li/span[text()='系统入口'])
+2020-11-23 16:20:35,769 - AutoTest - INFO - do click ByXPath //div/a/li/span[text()='系统入口']
+2020-11-23 16:20:35,770 - AutoTest - INFO - action:getScreenshot()
+2020-11-23 17:04:55,441 - AutoTest - INFO - 【RECORD 11-20-20 1.34.46 PM-Selenium】场景开始执行
+2020-11-23 17:04:55,442 - AutoTest - INFO - label：【输入账号】
+2020-11-23 17:04:55,442 - AutoTest - INFO - action:clickByCSS(div.password-box)
+2020-11-23 17:04:56,000 - AutoTest - INFO - do click ByCSS div.password-box
+2020-11-23 17:04:56,000 - AutoTest - INFO - action:clickByCSS(input.login-user)
+2020-11-23 17:04:56,568 - AutoTest - INFO - do click ByCSS input.login-user
+2020-11-23 17:04:56,568 - AutoTest - INFO - action:{'typeByCSS(input.login-user)': 'admin'}
+2020-11-23 17:04:57,120 - AutoTest - INFO - do type ByCSS input.login-user: admin
+2020-11-23 17:04:57,121 - AutoTest - INFO - action:clickByCSS(div.wrap)
+2020-11-23 17:04:57,706 - AutoTest - INFO - do click ByCSS div.wrap
+2020-11-23 17:04:57,706 - AutoTest - INFO - action:clickByCSS(input.login-password)
+2020-11-23 17:04:58,292 - AutoTest - INFO - do click ByCSS input.login-password
+2020-11-23 17:04:58,292 - AutoTest - INFO - label：【输入密码】
+2020-11-23 17:04:58,292 - AutoTest - INFO - action:clickByCSS(input.login-password)
+2020-11-23 17:04:58,903 - AutoTest - INFO - do click ByCSS input.login-password
+2020-11-23 17:04:58,904 - AutoTest - INFO - action:{'typeByCSS(input.login-password)': '666666'}
+2020-11-23 17:04:59,517 - AutoTest - INFO - do type ByCSS input.login-password: 666666
+2020-11-23 17:04:59,518 - AutoTest - INFO - label：【滑动滑块】
+2020-11-23 17:04:59,518 - AutoTest - INFO - action:{'slide_to_gap(i.el-icon-d-arrow-right)': '251'}
+2020-11-23 17:05:01,337 - AutoTest - INFO - None
+2020-11-23 17:05:01,337 - AutoTest - INFO - label：【点击登录按钮】
+2020-11-23 17:05:01,339 - AutoTest - INFO - action:clickByCSS(span)
+2020-11-23 17:05:02,027 - AutoTest - INFO - do click ByCSS span
+2020-11-23 17:05:02,028 - AutoTest - INFO - label：【断言】
+2020-11-23 17:05:02,028 - AutoTest - INFO - action:clickByCSS(span)
+2020-11-23 17:05:02,703 - AutoTest - INFO - do click ByCSS span
