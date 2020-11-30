@@ -22,21 +22,18 @@ scenarios:
     requests:
       - label: 输入账号
         actions:
-          - clickByCSS(div.password-box)
-          - clickByCSS(input.login-user)
-          - typeByCSS(input.login-user): "admin"
-          - clickByCSS(div.wrap)
-          - clickByCSS(input.login-password)
+          - clickByCSS(input.username)
+          - typeByCSS(input.username): "admin"
       - label: 输入密码
         actions:
-          - clickByCSS(input.login-password)
-          - typeByCSS(input.login-password): "666666"
+          - clickByCSS(input.pass)
+          - typeByCSS(input.pass): "666666"
       - label: 滑动滑块
         actions:
           - slide_to_gap(i.el-icon-d-arrow-right): "251"
       - label: 点击登录按钮
         actions:
-          - clickByCSS(span)
-      - label: 断言
-        actions:
-          - clickByCSS(span)
+          - clickByCSS(button.el-button.enter-btn.el-button--primary > span)
+#      - label: 断言
+#        actions:
+#          - clickByXPath(/html/body/div[1]/div/header/div/div[2]/span[1]): "Welcome，Admin"
