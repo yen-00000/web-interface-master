@@ -7,6 +7,11 @@ from src.web.common.YamlHandler import YamlHandler
 
 
 class TestInit(unittest.TestCase):
+    def setUp(self):
+        self.handler = YamlHandler()
+        self.imgs = self.handler.imgs
+        self.success_img = self.handler.success_img
+
     def test(self):
         result = YamlHandler().run(yaml_name='init')
         self.assertTrue(result)

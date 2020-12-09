@@ -58,7 +58,7 @@ def autoGen(className, caseDir, yamlPath):
 
 if __name__ == '__main__':
     path = webConfig.BASE_PATH
-    # 生成测试用例存放路径
+    # 生成测试用例存放路径'binghu'
     case_dir = os.path.join(path, 'testCase', 'web', 'binghu')
     # 单个自动生成测试用例
     # yaml_path = os.path.join(path, webConfig.WebConfig.yaml_path, 'zf_unit.yaml')

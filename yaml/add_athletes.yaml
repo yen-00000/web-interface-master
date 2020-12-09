@@ -26,14 +26,24 @@ scenarios:
       actions:
       - clickByXPath(//div[@id='app']/div/div/div/aside/ul/li[5]/div/div/span)
       - clickByXPath(//div[@id='app']/div/div/div/aside/ul/li[5]/ul/li)
+    - label: 点击Add,添加A组
+      actions:
       - clickByCSS(button.el-button.el-button--primary.el-button--mini)
+    - label: 输入name
+      actions:
       - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
       - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "A_1"
+    - label: 选择性别
+      actions:
       - clickByXPath(//div[3]/div/div/div/input)
       - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
       - clickByXPath((//input[@type='number'])[2])
+    - label: 输入ID
+      actions:
       - clickByXPath((//input[@type='text'])[5])
       - typeByXPath((//input[@type='text'])[5]): "1"
+    - label: 点击确定
+      actions:
       - clickByCSS(button.el-button.success-btn.el-button--warning > span)
       - clickByCSS(button.el-button.el-button--primary.el-button--mini)
       - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
@@ -71,58 +81,114 @@ scenarios:
       - clickByXPath((//input[@type='text'])[5])
       - typeByXPath((//input[@type='text'])[5]): "5"
       - clickByCSS(button.el-button.success-btn.el-button--warning > span)
-      - clickByCSS(button.el-button.el-button--primary.el-button--mini > span)
-      - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
-      - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "B_1"
-      - clickByXPath(//div[3]/div/div/div/input)
-      - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
-      - clickByXPath((//input[@type='text'])[5])
-      - typeByXPath((//input[@type='text'])[5]): "11"
-      - clickByCSS(button.el-button.success-btn.el-button--warning > span)
-      - clickByCSS(button.el-button.el-button--primary.el-button--mini > span)
-      - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
-      - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "B_2"
-      - clickByXPath(//div[3]/div/div/div/input)
-      - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
-      - clickByXPath((//input[@type='text'])[5])
-      - typeByXPath((//input[@type='text'])[5]): "22"
-      - clickByCSS(button.el-button.success-btn.el-button--warning)
-      - clickByCSS(button.el-button.el-button--primary.el-button--mini)
-      - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
-      - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "B_3"
-      - clickByXPath(//div[3]/div/div/div/input)
-      - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
-      - clickByXPath((//input[@type='text'])[5])
-      - typeByXPath((//input[@type='text'])[5]): "33"
-      - clickByCSS(button.el-button.success-btn.el-button--warning > span)
-      - clickByCSS(button.el-button.el-button--primary.el-button--mini > span)
-      - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
-      - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "B_4"
-      - clickByXPath(//div[3]/div/div/div/input)
-      - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
-      - clickByXPath((//input[@type='text'])[5])
-      - typeByXPath((//input[@type='text'])[5]): "44"
-      - clickByCSS(button.el-button.success-btn.el-button--warning > span)
-      - clickByCSS(button.el-button.el-button--primary.el-button--mini > span)
-      - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
-      - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "B_5"
-      - clickByXPath(//div[3]/div/div/div/input)
-      - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
-      - clickByXPath((//input[@type='text'])[5])
-      - typeByXPath((//input[@type='text'])[5]): "55"
-      - clickByCSS(button.el-button.success-btn.el-button--warning > span)
-      - clickByCSS(button.el-button.el-button--primary.el-button--mini > span)
-      - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
-      - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "C_1"
-      - clickByXPath(//div[3]/div/div/div/input)
-      - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
-      - clickByXPath((//input[@type='text'])[5])
-      - typeByXPath((//input[@type='text'])[5]): "111"
-      - clickByCSS(button.el-button.success-btn.el-button--warning > span)
-      - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
-      - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "C_2"
-      - clickByXPath(//div[3]/div/div/div/input)
-      - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
-      - clickByXPath((//input[@type='text'])[5])
-      - typeByXPath((//input[@type='text'])[5]): "222"
-      - clickByCSS(button.el-button.success-btn.el-button--warning > span)
+    - label: 点击Add,添加B组
+      actions:
+        - clickByCSS(button.el-button.el-button--primary.el-button--mini)
+    - label: 输入name
+      actions:
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "B_1"
+    - label: 选择性别
+      actions:
+        - clickByXPath(//div[3]/div/div/div/input)
+        - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
+        - clickByXPath((//input[@type='number'])[2])
+    - label: 输入ID
+      actions:
+        - clickByXPath((//input[@type='text'])[5])
+        - typeByXPath((//input[@type='text'])[5]): "11"
+    - label: 点击确定
+      actions:
+        - clickByCSS(button.el-button.success-btn.el-button--warning > span)
+        - clickByCSS(button.el-button.el-button--primary.el-button--mini)
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "B_2"
+        - clickByXPath(//div[3]/div/div/div/input)
+        - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
+        - clickByXPath((//input[@type='text'])[5])
+        - typeByXPath((//input[@type='text'])[5]): "22"
+        - clickByCSS(button.el-button.success-btn.el-button--warning > span)
+        - clickByCSS(button.el-button.el-button--primary.el-button--mini)
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix)
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "B_3"
+        - clickByXPath(//div[3]/div/div/div/input)
+        - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
+        - clickByXPath((//input[@type='text'])[5])
+        - typeByXPath((//input[@type='text'])[5]): "33"
+        - clickByCSS(button.el-button.success-btn.el-button--warning > span)
+        - clickByCSS(button.el-button.el-button--primary.el-button--mini > span)
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "B_4"
+        - clickByXPath(//div[3]/div/div/div/input)
+        - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
+        - clickByXPath(//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[6]/div/div)
+        - clickByXPath((//input[@type='text'])[5])
+        - typeByXPath((//input[@type='text'])[5]): "44"
+        - clickByCSS(button.el-button.success-btn.el-button--warning > span)
+        - clickByCSS(button.el-button.el-button--primary.el-button--mini)
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "B_5"
+        - clickByXPath(//div[3]/div/div/div/input)
+        - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
+        - clickByCSS(div.el-form-item__content > div.el-select.el-select--mini > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - clickByCSS(li.el-select-dropdown__item.hover)
+        - clickByXPath((//input[@type='text'])[5])
+        - typeByXPath((//input[@type='text'])[5]): "55"
+        - clickByCSS(button.el-button.success-btn.el-button--warning > span)
+    - label: 点击Add,添加C组
+      actions:
+        - clickByCSS(button.el-button.el-button--primary.el-button--mini)
+    - label: 输入name
+      actions:
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "C_1"
+    - label: 选择性别
+      actions:
+        - clickByXPath(//div[3]/div/div/div/input)
+        - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
+        - clickByXPath((//input[@type='number'])[2])
+    - label: 输入ID
+      actions:
+        - clickByXPath((//input[@type='text'])[5])
+        - typeByXPath((//input[@type='text'])[5]): "111"
+    - label: 点击确定
+      actions:
+        - clickByCSS(button.el-button.success-btn.el-button--warning > span)
+        - clickByCSS(button.el-button.el-button--primary.el-button--mini)
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "C_2"
+        - clickByXPath(//div[3]/div/div/div/input)
+        - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
+        - clickByXPath((//input[@type='text'])[5])
+        - typeByXPath((//input[@type='text'])[5]): "222"
+        - clickByCSS(button.el-button.success-btn.el-button--warning > span)
+        - clickByCSS(button.el-button.el-button--primary.el-button--mini)
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix)
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "C_3"
+        - clickByXPath(//div[3]/div/div/div/input)
+        - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
+        - clickByXPath((//input[@type='text'])[5])
+        - typeByXPath((//input[@type='text'])[5]): "333"
+        - clickByCSS(button.el-button.success-btn.el-button--warning > span)
+        - clickByCSS(button.el-button.el-button--primary.el-button--mini > span)
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "C_4"
+        - clickByXPath(//div[3]/div/div/div/input)
+        - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
+        - clickByXPath(//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div[2]/form/div[6]/div/div)
+        - clickByXPath((//input[@type='text'])[5])
+        - typeByXPath((//input[@type='text'])[5]): "444"
+        - clickByCSS(button.el-button.success-btn.el-button--warning > span)
+        - clickByCSS(button.el-button.el-button--primary.el-button--mini)
+        - clickByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - typeByCSS(div.el-form-item.is-required > div.el-form-item__content > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner): "C_5"
+        - clickByXPath(//div[3]/div/div/div/input)
+        - clickByXPath(/html/body/div[3]/div[1]/div[1]/ul/li[1]/span)
+        - clickByCSS(div.el-form-item__content > div.el-select.el-select--mini > div.el-input.el-input--mini.el-input--suffix > input.el-input__inner)
+        - clickByCSS(li.el-select-dropdown__item.hover)
+        - clickByXPath((//input[@type='text'])[5])
+        - typeByXPath((//input[@type='text'])[5]): "555"
+        - clickByCSS(button.el-button.success-btn.el-button--warning > span)
+

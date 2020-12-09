@@ -23,11 +23,11 @@ scenarios:
       - label: 输入账号
         actions:
           - clickByCSS(input.username)
-          - typeByCSS(input.username): "admin"
+          - typeByCSS(input.username): "username"
       - label: 输入密码
         actions:
           - clickByCSS(input.pass)
-          - typeByCSS(input.pass): "666666"
+          - typeByCSS(input.pass): "password"
       - label: 滑动滑块
         actions:
           - slide_to_gap(i.el-icon-d-arrow-right): "251"
